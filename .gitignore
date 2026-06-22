@@ -1,0 +1,18 @@
+# Competition data (large, provided inputs)
+no_second_guessing_evaluation_data/
+no-second-guessing-submission-sample/
+
+# Generated outputs (reproducible by running the pipeline)
+submission/
+submission.zip
+docs/qc_report.json
+
+# Organizer reference repo (has its own git history)
+oil-and-gas-claude-skills/
+
+# Python / OS cruft
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.DS_Store

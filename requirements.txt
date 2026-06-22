@@ -1,0 +1,8 @@
+# Python >= 3.11
+numpy>=1.24,<2.0
+
+# Optional (not required by the pipeline itself -- the LAS reader/writer in
+# src/las_io.py is dependency-free by design, see its module docstring for
+# why). Useful only for ad hoc exploration/plotting during development.
+# pandas>=2.0
+# matplotlib>=3.7
